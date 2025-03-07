@@ -17,3 +17,30 @@ This project is a **Machine Learning** model to predict car selling prices based
 ```sh
 git clone https://github.com/nithinpawar10/Car_Price-Prediction-Analysis.git
 cd Car_Price-Prediction-Analysis
+
+
+2️⃣ Install Dependencies
+Ensure you have Python 3.7+ installed. Then, install the required libraries:
+
+sh
+Copy
+Edit
+pip install -r requirements.txt
+3️⃣ Run the Streamlit App
+sh
+Copy
+Edit
+streamlit run app.py
+This will launch the web app in your browser.
+
+📊 Dataset
+The dataset includes the following features:
+
+Year: Year of car purchase.
+Selling_Price: Price at which the car was sold.
+Present_Price: Current market price.
+Fuel_Type: Type of fuel (Petrol/Diesel/CNG).
+Kms_Driven: Total kilometers driven.
+Transmission: Manual or Automatic.
+Owner: Number of previous owners.
+Ensure the dataset (car_data.csv) is present in the project directory.
